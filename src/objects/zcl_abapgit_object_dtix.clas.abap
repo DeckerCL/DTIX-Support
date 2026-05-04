@@ -156,7 +156,7 @@ CLASS zcl_abapgit_object_dtix IMPLEMENTATION.
 
         CREATE DATA mr_entity_index TYPE ('CL_BLUE_SOURCE_OBJECT_DATA=>TY_OBJECT_DATA').
 
-        CREATE OBJECT mi_persistence TYPE ('CL_DTIX_OBJECT_PERSIST').
+        CREATE OBJECT mi_persistence TYPE ('CL_DD_DTIX_OBJECT_PERSIST').
 
       CATCH cx_sy_create_error.
         RAISE EXCEPTION TYPE zcx_abapgit_type_not_supported EXPORTING obj_type = is_item-obj_type.
