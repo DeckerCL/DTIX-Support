@@ -1,4 +1,4 @@
-CLASS ZCL_ABAPGIT_OBJECT_DTIX DEFINITION
+CLASS zcl_abapgit_object_dtix DEFINITION
   PUBLIC
   INHERITING FROM zcl_abapgit_object_common_aff
   FINAL
